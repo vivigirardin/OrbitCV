@@ -7,8 +7,8 @@
 - id: language
   translation: Languages
 - id: projects
-  translation: Projects
+  translation: Courses & Other Experiences
 - id: skills
-  translation: Skills & Proficiency
+  translation: Skills
 - id: summary
   translation: Career Profile
