@@ -25,15 +25,15 @@ disable404 = true
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-6.css"
 
 # Sidebar sections
 
     # Profile section
     [params.profile]
-        name = "John Doe"
-        tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        name = "Viviane Girardin"
+        tagline = "M.Sc. Toxicology"
+        avatar = "Orbit.png"
 
     # Contact section
     [params.contact]
@@ -42,38 +42,38 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: girardin.vivi@gmail.com"
+        title = "girardin.vivi@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+4797944071"
+        title = "+4797944071"
 
-        [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+       #[[params.contact.list]]
+        #class = "website"
+        #icon = "fa-globe"
+        #url = "//portfoliosite.com"
+        #title = "portfoliosite.com"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/viviane-girardin"
+        title = "linkedin.com/in/viviane-girardin"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/vivigirardin"
+        title = "github.com/vivigirardin"
 
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+       # [[params.contact.list]]
+      #  class = "twitter"
+       # icon = "fa-twitter"
+        #url = "//twitter.com/username"
+        #title = "@twittername"
 
     # Education section
     [params.education]
@@ -81,14 +81,14 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "MSc in Toxicology"
+        college = "University of Oslo"
+        dates = "January 2017 - December 2018"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "BSc in Biologi"
+        college = "University of Oslo"
+        dates = "August 2014 - December 2016"
 
     # Languages section
     [params.language]
@@ -96,15 +96,15 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
+        language = "Portuguese"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
+        language = "English"
         level = "Professional"
 
         [[params.language.list]]
-        language = "Russian"
+        language = "Norwegian"
         level = "Professional"
 
     # Interests section
@@ -113,13 +113,16 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "R"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Python"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "Git"
+        
+        [[params.interests.list]]
+        interest = "Travel"
 
 # Main body sections
 
@@ -130,8 +133,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
-
+        summary = "I am a new graduate with a Master's degree in toxicology from the University of Oslo. My master's thesis was about the origin and bioaccumulation of organic pollutants from traffic in dragonfly larvae. My Master's thesis was funded by the Norwegian Public Roads Administration and the Norwegian Institute for Water Research (NIVA). Last summer, I worked in the section for climate and environment at Statens vegvesen (the Norwegian Public Roads Administration). Previously, I worked as a research assistant at NIVA. The collaboration with NIVA continues, and I was hired to summarize my thesis for publication in a scientific journal. As a person, I am solution-oriented, committed and creative. I am also a hardworking and goal-oriented person who, among other things, continues with the studies without postponement despite the fact that I have become the mother of my second child in the middle of my studies."
     # Experiences section
     [params.experiences]
         enable = true
@@ -139,54 +141,83 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Research Assistant"
+        dates = "2019 - Present"
+        company = "Norwegian Institute for Water Research (NIVA)"
+        details = " Writing of scientific article, laboratory work, data management."
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Summer intern"
+        dates = "May 2018 - August 2018"
+        company = "Statens vegvesen"
+        details = "Field work. \n\n Wrote a report on the effects of suspended particles in aquatic systems, wrote a summary for the report “Sustainable Design and Maintenance of Stormwater Treatment Facilities”. \n\n Diverse literature research."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Research Assistant"
+        dates = "January 2016 - August 2016"
+        company = "Norwegian Institute for Water Research (NIVA)"
+        details = "Laboratory work: Extraction methods for chemical analysis of organic and inorganic compounds in fish, phytoplankton and sediment and quantification using HPLC."
+
+        [[params.jobs.list]]
+        position = "Administrative Officer (Temporary contract)"
+        dates = "June 2014 - January 2015"
+        company = "Brazilian – Norwegian Chamber of Commerce"
+        details = "Administrative support. \n\n Organized, managed and represented BNCC on events. \n\n Webmaster for BNCC’s website."
+
+
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        title = "Courses 6 Other Experiences"
+       # intro = "**You can list your side projects or open source libraries in this section."
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        position = "**Experience -**Teaching assistant and interim board member"
+        dates = "January 2019 - Present"
+        company = "Carpentry@UiO"
+        details = "Carpentry@UiO offers foundational coding and data science skills workshops to PhD students, researchers and others at UiO. **Volunteering work**"
+
+    
+        [[params.projects.list]]
+        position = "**Experience -** Teaching assistant and interim board member"
+        dates = "January 2019 - Present"
+        company = "Carpentry@UiO"
+        details = "Carpentry@UiO offers foundational coding and data science skills workshops to PhD students, researchers and others at UiO. **Volunteering work**."
+        
+        [[params.projects.list]]
+        position = "**Experience -** Board member"
+        dates = "2017 - Present"
+        company = "Sameiet Kirkeveien 129b"
+        details = "The Board members are responsible for making decisions regarding the maintenance of building, and set and enforce the house rules.**Volunteering work**"
+  
+        [[params.projects.list]]
+        position = "**Experience -**Swimming instructor"
+        dates = "May 2018 - Present"
+        company = "Norges Livredningsselskap"
+        details = "Swimming courses for children between 4 and 12 years-old."
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        position = "**Course -**Norges Kurs i arbeidsvarsling i henhold til Statens vegvesen Håndbok N301."
+        dates = "1-day course , 2018"
+        company = "Statens vegvesen"
+        details = "Course for those who work on or by the roadside. It gives the necessary knowledge and understanding of their own and others' safety when working on or by road, and the formal safety procedures that must be followed before and during the work."
+
+        #url = "https://arbeidsvarsling.smartlearn.no/course-category/course-1"
+       
+        [[params.projects.list]]
+        position = "**Course -**International General Certification in Occupational Health and Safety"
+        dates = "Approx. 135h , 2012"
+        company = "National Examination Board in Occupational HSE (NEBOSH)"
+        details = "The course incudes the practical assessment of a workplace. **Passed with distinction**."
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        position = "**Course -**Experimental animal studies"
+        dates = "Approx. 135h , 2012"
+        company = "National Examination Board in Occupational HSE (NEBOSH)"
+        details = "The course incudes 25 hours of practical work at an animal facility."
 
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
 
     # Skills section
     [params.skills]
@@ -195,28 +226,22 @@ disable404 = true
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-       
+        skill = "R"
+        enable = true
+        icon = "fa-rocket"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
+        skill = "Python"
+        #level = "98%"
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
+        skill = "GitHub"
+        #level = "95%"
+
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        skill = "Photoshop"
+        #level = "60%"
 
     # Footer section
 
@@ -228,4 +253,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "2019 Viviane Girardin"
