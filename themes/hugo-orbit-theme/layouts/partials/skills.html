@@ -3,7 +3,7 @@
                 <div class="skillset">
 				{{ range .Site.Params.skills.list }}
                     <div class="item">
-                        <h3 class="level-title">{{ .skill }}</h3>
+                        <h3 class="level-title">{{ .skill | markdownify }}</h3>
                         
                     </div><!--//item-->
                 {{ end }}
