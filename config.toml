@@ -86,7 +86,7 @@ disable404 = true
         dates = "January 2017 - December 2018"
 
         [[params.education.list]]
-        degree = "BSc in Biologi"
+        degree = "BSc in Biology"
         college = "University of Oslo"
         dates = "August 2014 - December 2016"
 
@@ -96,16 +96,9 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "Portuguese"
-        level = "Native"
+        language = "**Portuguese** - Native <br> **Norwegian** - Professional <br> **English** - Professional"
+        
 
-        [[params.language.list]]
-        language = "English"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Norwegian"
-        level = "Professional"
 
     # Interests section
     [params.interests]
@@ -113,27 +106,49 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "R"
-
-        [[params.interests.list]]
-        interest = "Python"
-
-        [[params.interests.list]]
-        interest = "Git"
-        
-        [[params.interests.list]]
-        interest = "Travel"
-
+        interest = "**R** - advanced <br> **Python** - basic <br> **HTML** - basic <br> **GitHub** - intermediate <br> **Photoshop** - intermediate <br> **Excel** - intermediate"
+      
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
 
     # Summary section
+    #use """ text """ instead of "text" to avoid having a long string of text
+
     [params.summary]
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I am a new graduate with a Master's degree in toxicology from the University of Oslo. My master's thesis was about the origin and bioaccumulation of organic pollutants from traffic in dragonfly larvae. My Master's thesis was funded by the Norwegian Public Roads Administration and the Norwegian Institute for Water Research (NIVA). Last summer, I worked in the section for climate and environment at Statens vegvesen (the Norwegian Public Roads Administration). Previously, I worked as a research assistant at NIVA. The collaboration with NIVA continues, and I was hired to summarize my thesis for publication in a scientific journal. As a person, I am solution-oriented, committed and creative. I am also a hardworking and goal-oriented person who, among other things, continues with the studies without postponement despite the fact that I have become the mother of my second child in the middle of my studies."
+        summary = """  <font size="+1">**Mature new graduate with work
+        experience** </font>.<br><br> 
+        My master's thesis focused on organic pollutants from traffic in the 
+        environment. During my studies I worked in the section for climate and environment at 
+        Statens vegvesen (the Norwegian Public Roads Administration) and the section of. 
+        of environmental chemistry at the Norwegian Institute for Water Research
+        (NIVA). 
+        I am currently employed by the section of environmental toxicology at NIVA, 
+        with the task of summarizing my thesis for publication in a scientific journal. <br>
+        In the last years I've learned a great deal on laboratory and field work, 
+        data management, and machine learning. <br><br>
+        <font size="+1">**According to previous employers:**</font><br><br>
+        <a href= "https://www.dropbox.com/s/cz2ohpempp7gblr/2018.09.21_Statens_vegvesen_Sluttattest_for_sommerjobb_2018.pdf?dl=0"><q>She works efficiently, systematically and independently and is not afraid of
+        challenges. She... has solved all the tasks she was given 
+        in a very competent manner.</q> </a><br>
+        Kronvall Kjersti Wike (Statens vegvesen)<br><br>
+        <a href = "https://www.dropbox.com/s/ceognfnmt15uo0t/Aker_Sol_Ref.pdf?dl=0"><q>My 
+        experience with Viviane proved she was reliable, responsive, responsible, 
+        and usedher initiative. She always produced what was required in a timely 
+        manner; normallymaking the delivery ahead of the agreed timeline. 
+        She was / is not afraid to ask questionsas she grows into 
+        the task assigned her.</q></a><br>
+        Timothy Canty (Aker Solutions)<br><br>
+        <a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0"><q> 
+        Viviane proved to be a vey loyal member...and she also showed initiative and 
+        made new suggestions for improvement, both in the administrative and data 
+        related part of the work. Viviane demonstrated a structured approach</q>
+        </a> <br>Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)
+      
+        """
     # Experiences section
     [params.experiences]
         enable = true
@@ -150,7 +165,7 @@ disable404 = true
         position = "Summer intern"
         dates = "May 2018 - August 2018"
         company = "Statens vegvesen"
-        details = "Field work. \n\n Wrote a report on the effects of suspended particles in aquatic systems, wrote a summary for the report “Sustainable Design and Maintenance of Stormwater Treatment Facilities”. \n\n Diverse literature research."
+        details = "Field work. <br> Wrote a report on the effects of suspended particles in aquatic systems, wrote a summary for the report “Sustainable Design and Maintenance of Stormwater Treatment Facilities”. <br> Diverse literature research."
 
         [[params.jobs.list]]
         position = "Research Assistant"
@@ -162,7 +177,7 @@ disable404 = true
         position = "Administrative Officer (Temporary contract)"
         dates = "June 2014 - January 2015"
         company = "Brazilian – Norwegian Chamber of Commerce"
-        details = "Administrative support. \n\n Organized, managed and represented BNCC on events. \n\n Webmaster for BNCC’s website."
+        details = "Administrative support. <br> Organized, managed and represented BNCC on events. <br> Webmaster for BNCC’s website."
 
 
 
@@ -199,7 +214,7 @@ disable404 = true
         details = "Swimming courses for children between 4 and 12 years-old."
 
         [[params.projects.list]]
-        position = "**Course -**Norges Kurs i arbeidsvarsling i henhold til Statens vegvesen Håndbok N301."
+        position = "**Course -**Norges Kurs i arbeidsvarsling i henhold til <br> Statens vegvesen Håndbok N301."
         dates = "1-day course , 2018"
         company = "Statens vegvesen"
         details = "Course for those who work on or by the roadside. It gives the necessary knowledge and understanding of their own and others' safety when working on or by road, and the formal safety procedures that must be followed before and during the work."
@@ -207,15 +222,15 @@ disable404 = true
         #url = "https://arbeidsvarsling.smartlearn.no/course-category/course-1"
        
         [[params.projects.list]]
-        position = "**Course -**International General Certification in Occupational Health and Safety"
+        position = "**Course -**International General Certification <br> in Occupational Health and Safety"
         dates = "Approx. 135h , 2012"
         company = "National Examination Board in Occupational HSE (NEBOSH)"
         details = "The course incudes the practical assessment of a workplace. **Passed with distinction**."
 
         [[params.projects.list]]
         position = "**Course -**Experimental animal studies"
-        dates = "Approx. 135h , 2012"
-        company = "National Examination Board in Occupational HSE (NEBOSH)"
+        dates = "April 2018"
+        company = "University of Oslo"
         details = "The course incudes 25 hours of practical work at an animal facility."
 
 
@@ -226,22 +241,8 @@ disable404 = true
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "R"
-        enable = true
-        icon = "fa-rocket"
-                
-        [[params.skills.list]]
-        skill = "Python"
-        #level = "98%"
-
-        [[params.skills.list]]
-        skill = "GitHub"
-        #level = "95%"
-
-
-        [[params.skills.list]]
-        skill = "Photoshop"
-        #level = "60%"
+        skill = "R, GitHub, travel"
+        
 
     # Footer section
 
@@ -253,4 +254,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = "2019 Viviane Girardin"
+        copyright = "Viviane Girardin"
