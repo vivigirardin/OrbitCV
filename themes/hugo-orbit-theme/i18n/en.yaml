@@ -3,12 +3,12 @@
 - id: experiences
   translation: Work Experience
 - id: interests
-  translation: Languages & Tools
+  translation: Interests
 - id: language
   translation: Languages
 - id: projects
   translation: Courses & Other Experiences
 - id: skills
-  translation: Interests
+  translation: Skills
 - id: summary
   translation: Career Profile
