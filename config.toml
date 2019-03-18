@@ -119,53 +119,52 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = """  <font size="+1">**Mature new graduate with work
+        summary = """<font size="+1">**Mature new graduate with work
         experience** </font>.<br><br> 
-        My master's thesis focused on organic pollutants from traffic in the 
-        environment. During my studies I worked in the section for climate and environment at 
-        Statens vegvesen (the Norwegian Public Roads Administration) and the section of. 
-        of environmental chemistry at the Norwegian Institute for Water Research
-        (NIVA). 
-        I am currently employed by the section of environmental toxicology at NIVA, 
-        with the task of summarizing my thesis for publication in a scientific journal. <br>
-        In the last years I've learned a great deal on laboratory and field work, 
-        data management, and machine learning. <br><br>
-        <font size="+1">**According to previous employers:**</font><br><br>
-        <a href= "https://www.dropbox.com/s/cz2ohpempp7gblr/2018.09.21_Statens_vegvesen_Sluttattest_for_sommerjobb_2018.pdf?dl=0"><q>She works efficiently, systematically and independently and is not afraid of
+        <ul>
+        <li>**Laboratory and field work experience** working with a variety of instruments for
+        collection,extraction and analysis of organic and inorganic contaminants in water, sediment
+        and biota.</li>
+        <li>**Solid computer skills** such as programming and 
+        markup languages **Python, R, HTML and Markdown** (this page was created using 
+        most of these languages). </li>
+        <li>**Customer service** experience in several countries</li>
+        </ul>
+        <br><font size="+1">**According to previous employers:**</font><br><br>
+        <center><q><i>She works efficiently, systematically and independently and is not afraid of
         challenges. She... has solved all the tasks she was given 
-        in a very competent manner.</q> </a><br>
-        Kronvall Kjersti Wike (Statens vegvesen)<br><br>
-        <a href = "https://www.dropbox.com/s/ceognfnmt15uo0t/Aker_Sol_Ref.pdf?dl=0"><q>My 
-        experience with Viviane proved she was reliable, responsive, responsible, 
-        and used her initiative. She always produced what was required in a timely 
-        manner; normally making the delivery ahead of the agreed timeline. 
+        in a very competent manner.</q></i> <br>
+        <a href= "https://www.dropbox.com/s/cz2ohpempp7gblr/2018.09.21_Statens_vegvesen_Sluttattest_for_sommerjobb_2018.pdf?dl=0" 
+        style="color: #0000EE">Kjersti Wike Kronvall (Statens vegvesen)</a><br><br>
+        <i><q>My experience with Viviane proved she was reliable, responsive, 
+        responsible, and used her initiative. She always produced what was 
+        required in a timely manner; normally making the delivery ahead of the agreed timeline. 
         She is not afraid to ask questionsas she grows into 
-        the task assigned her.</q></a><br>
-        Timothy Canty (Aker Solutions)<br><br>
-        <a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0"><q> 
-        Viviane proved to be a vey loyal member...and she also showed initiative and 
+        the task assigned her.</q></i><br>
+        <a href = "https://www.dropbox.com/s/ceognfnmt15uo0t/Aker_Sol_Ref.pdf?dl=0"style="color: #0000EE">Timothy Canty (Aker Solutions)</a><br><br>
+        <i><q>Viviane proved to be a very loyal member...and she also showed initiative and 
         made new suggestions for improvement, both in the administrative and data 
-        related part of the work. Viviane demonstrated a structured approach.</q>
-        </a> <br>Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)
+        related part of the work. Viviane demonstrated a structured approach.</q></i>
+        <br><a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0" style="color: #0000EE">Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)<center/></a>
       
         """
     # Experiences section
     [params.experiences]
         enable = true
         icon = "fa-briefcase"
-        title = "Experiences"
+        title = "Work Experience"
 
         [[params.jobs.list]]
         position = "Research Assistant"
         dates = "2019 - Present"
         company = "Norwegian Institute for Water Research (NIVA)"
-        details = " Writing of scientific article, laboratory work, data management."
+        details = "Elaboration of scientific article (in progress), laboratory work."
 
         [[params.jobs.list]]
         position = "Summer intern"
         dates = "May 2018 - August 2018"
         company = "Statens vegvesen"
-        details = "Field work. <br> Wrote a report on the effects of suspended particles in aquatic systems, wrote a summary for the report “Sustainable Design and Maintenance of Stormwater Treatment Facilities”. <br> Diverse literature research."
+        details = "Field work. <br> Elaboration of a report on the effects of suspended particles in aquatic systems, wrote a summary for the report “Sustainable Design and Maintenance of Stormwater Treatment Facilities”. <br> Diverse literature research."
 
         [[params.jobs.list]]
         position = "Research Assistant"
@@ -177,7 +176,7 @@ disable404 = true
         position = "Administrative Officer (Temporary contract)"
         dates = "June 2014 - January 2015"
         company = "Brazilian – Norwegian Chamber of Commerce"
-        details = "Administrative support. <br> Organized, managed and represented BNCC on events. <br> Webmaster for BNCC’s website."
+        details = "Administrative support. <br> Organization, management and representation of BNCC on monthly events. <br> Re-designed and re-structured the whole BNCC’s website."
 
 
 
@@ -188,21 +187,17 @@ disable404 = true
         title = "Courses 6 Other Experiences"
        # intro = "**You can list your side projects or open source libraries in this section."
 
-        [[params.projects.list]]
-        position = "**Experience -**Teaching assistant and interim board member"
-        dates = "January 2019 - Present"
-        company = "Carpentry@UiO"
-        details = "Carpentry@UiO offers foundational coding and data science skills workshops to PhD students, researchers and others at UiO. **Volunteering work**"
 
-    
         [[params.projects.list]]
-        position = "**Experience -** Teaching assistant and interim board member"
+        position = "**Volunteering work -** Teaching assistant and <br>interim board member"
         dates = "January 2019 - Present"
         company = "Carpentry@UiO"
-        details = "Carpentry@UiO offers foundational coding and data science skills workshops to PhD students, researchers and others at UiO. **Volunteering work**."
+        details = """Carpentry@UiO offers foundational coding and data 
+        science skills workshops to PhD students, researchers and others 
+        at UiO"""
         
         [[params.projects.list]]
-        position = "**Experience -** Board member"
+        position = "**Volunteering work -** Board member"
         dates = "2017 - Present"
         company = "Sameiet Kirkeveien 129b"
         details = "The Board members are responsible for making decisions regarding the maintenance of building, and set and enforce the house rules.**Volunteering work**"
@@ -214,10 +209,15 @@ disable404 = true
         details = "Swimming courses for children between 4 and 12 years-old."
 
         [[params.projects.list]]
-        position = "**Course -**Norges Kurs i arbeidsvarsling i henhold til <br> Statens vegvesen Håndbok N301."
+        position = """<a href ="https://arbeidsvarsling.smartlearn.no/course-category/course-1" style="color:#0000EE" >
+        **Course -**</a>Norges Kurs i arbeidsvarsling i henhold til <br> Statens vegvesen Håndbok N301."""
         dates = "1-day course , 2018"
         company = "Statens vegvesen"
-        details = "Course for those who work on or by the roadside. It gives the necessary knowledge and understanding of their own and others' safety when working on or by road, and the formal safety procedures that must be followed before and during the work."
+        details = """Course aimed on safery during roadwork. 
+        It gives the necessary knowledge and understanding of their 
+        own and others' safety when working on or by road, and the 
+        formal safety procedures that must be followed before and 
+        during the work."""
 
         #url = "https://arbeidsvarsling.smartlearn.no/course-category/course-1"
        
