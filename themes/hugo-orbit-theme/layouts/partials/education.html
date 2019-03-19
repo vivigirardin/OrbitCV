@@ -1,4 +1,4 @@
-            <div class="education-container container-block">
+           <!-- <div class="education-container container-block">
                 <h2 class="container-block-title">{{ i18n "education" }}</h2>
 				{{ range .Site.Params.education.list }}
                 <div class="item">
@@ -6,5 +6,25 @@
                     <h5 class="meta">{{ .college| markdownify }}</h5>
                     <div class="time">{{ .dates }}</div>
                 </div><!--//item-->
-				{{ end }}
+		<!--		{{ end }}
             </div><!--//education-container-->
+                        <section class="education-section section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.education.icon }}"></i>{{ i18n "education" }}</h2>
+
+				{{ range .Site.Params.education.list }}
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{ .position | markdownify }}</h3>
+                            <div class="time">{{ .dates }}</div>
+                        </div><!--//upper-row-->
+                        <div class="company">{{ .company }}</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+				{{ end }}
+
+            </section><!--//section-->
+
