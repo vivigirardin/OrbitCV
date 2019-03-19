@@ -106,7 +106,7 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "**R** - advanced <br> **Python** - basic <br> **HTML** - basic <br> **GitHub** - intermediate <br> **Photoshop** - intermediate <br> **Excel** - intermediate"
+        interest = "**R**, **SCUBA diving**, **cooking**, **travel**"
       
 # Main body sections
 
@@ -144,7 +144,8 @@ disable404 = true
         <br><a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0" style="color: #0000EE">Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)<center/></a>
       
         """
-              [params.education]
+              
+      [params.education]
         enable = true
         icon = "fa-university"
         title = "Education"
@@ -153,12 +154,14 @@ disable404 = true
         position = "MSc in toxicology"
         dates = "January 2017 - December 2018"
         company = "University of Oslo"
+        details =""
         
         
         [[params.education.list]]
         position = "BSc in biology"
         company = "University of Oslo"
         dates = "August 2014 - December 2016"
+        details=""
  
     # Experiences section
     [params.experiences]
@@ -176,7 +179,12 @@ disable404 = true
         position = "Summer intern"
         dates = "May 2018 - August 2018"
         company = "Statens vegvesen"
-        details = "Field work. <br> Elaboration of a report on the effects of suspended particles in aquatic systems, wrote a summary for the report “Sustainable Design and Maintenance of Stormwater Treatment Facilities”. <br> Diverse literature research."
+        details ="""<ul>
+        <li>Field work - sampling of water, sediment and biota.</li> 
+        <li>Elaboration of a report on the effects of suspended particles in
+        aquatic systems.</li>
+        <li>summary for the report “Sustainable Design and Maintenance of Stormwater Treatment Facilities”.</li>
+        <li>Diverse literature research.</li></ul>"""
 
         [[params.jobs.list]]
         position = "Research Assistant"
@@ -253,7 +261,7 @@ disable404 = true
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "**R** - advanced <br> **Python** - basic <br> **HTML** - basic <br> **GitHub** - intermediate <br> **Photoshop** - intermediate <br> **Excel** - intermediate"
+        skill = "**R** - advanced <br> **Python** - basic <br> **HTML** - basic <br> **CSS** - basic <br> **GitHub** - intermediate <br> **Photoshop** - intermediate <br> **Excel** - intermediate"
         
 
     # Footer section
