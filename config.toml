@@ -76,19 +76,19 @@ disable404 = true
         #title = "@twittername"
 
     # Education section
-    [params.education]
-        enable = true
-        title = "Education"
+    #[params.education]
+     #   enable = true
+      #  title = "Education"
 
-        [[params.education.list]]
-        degree = "MSc in Toxicology"
-        college = "University of Oslo"
-        dates = "January 2017 - December 2018"
+       # [[params.education.list]]
+        #degree = "MSc in Toxicology"
+        #college = "University of Oslo"
+        #dates = "January 2017 - December 2018"
 
-        [[params.education.list]]
-        degree = "BSc in Biology"
-        college = "University of Oslo"
-        dates = "August 2014 - December 2016"
+       # [[params.education.list]]
+        #degree = "BSc in Biology"
+        #college = "University of Oslo"
+        #dates = "August 2014 - December 2016"
 
     # Languages section
     [params.language]
@@ -132,22 +132,34 @@ disable404 = true
         </ul>
         <br><font size="+1">**According to previous employers:**</font><br><br>
         <center><q><i>She works efficiently, systematically and independently and is not afraid of
-        challenges. She... has solved all the tasks she was given 
-        in a very competent manner.</q></i> <br>
+        challenges.</q></i> <br>
         <a href= "https://www.dropbox.com/s/cz2ohpempp7gblr/2018.09.21_Statens_vegvesen_Sluttattest_for_sommerjobb_2018.pdf?dl=0" 
         style="color: #0000EE">Kjersti Wike Kronvall (Statens vegvesen)</a><br><br>
-        <i><q>My experience with Viviane proved she was reliable, responsive, 
-        responsible, and used her initiative. She always produced what was 
-        required in a timely manner; normally making the delivery ahead of the agreed timeline. 
-        She is not afraid to ask questionsas she grows into 
-        the task assigned her.</q></i><br>
+        <i><q>...Viviane proved she was reliable, responsive, 
+        responsible, and used her initiative.</q></i><br>
         <a href = "https://www.dropbox.com/s/ceognfnmt15uo0t/Aker_Sol_Ref.pdf?dl=0"style="color: #0000EE">Timothy Canty (Aker Solutions)</a><br><br>
-        <i><q>Viviane proved to be a very loyal member...and she also showed initiative and 
+        <i><q>Viviane...showed initiative and 
         made new suggestions for improvement, both in the administrative and data 
         related part of the work. Viviane demonstrated a structured approach.</q></i>
         <br><a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0" style="color: #0000EE">Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)<center/></a>
       
         """
+              [params.education]
+        enable = true
+        icon = "fa-university"
+        title = "Education"
+       
+        [[params.education.list]]
+        position = "MSc in toxicology"
+        dates = "January 2017 - December 2018"
+        company = "University of Oslo"
+        
+        
+        [[params.education.list]]
+        position = "BSc in biology"
+        company = "University of Oslo"
+        dates = "August 2014 - December 2016"
+ 
     # Experiences section
     [params.experiences]
         enable = true
@@ -176,8 +188,8 @@ disable404 = true
         position = "Administrative Officer (Temporary contract)"
         dates = "June 2014 - January 2015"
         company = "Brazilian – Norwegian Chamber of Commerce"
-        details = "Administrative support. <br> Organization, management and representation of BNCC on monthly events. <br> Re-designed and re-structured the whole BNCC’s website."
-
+        details = "Administrative support. <br> Organization, management and representation of BNCC on monthly events. <br> Re-designed and re-structured BNCC’s website entirely."
+        
 
 
     # Projects section
@@ -237,11 +249,11 @@ disable404 = true
     # Skills section
     [params.skills]
         enable = true
-        icon = "fa-rocket"
+        icon = "fa-star"
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "R, GitHub, travel"
+        skill = "**R** - advanced <br> **Python** - basic <br> **HTML** - basic <br> **GitHub** - intermediate <br> **Photoshop** - intermediate <br> **Excel** - intermediate"
         
 
     # Footer section
@@ -252,6 +264,6 @@ disable404 = true
     # you can check out other license options via template author's website: themes.3rdwavemedia.com
     # 
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
-
+  
     [params.footer]
         copyright = "Viviane Girardin"
