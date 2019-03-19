@@ -4,7 +4,10 @@
 				{{ range .Site.Params.skills.list }}
                     <div class="item">
                         <h3 class="level-title">{{ .skill | markdownify }}</h3>
-                        
+                        </div><!--//meta-->
+                    <div class="details">
+                        <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+                    </div><!--//details-->
                     </div><!--//item-->
                 {{ end }}
                 </div>
