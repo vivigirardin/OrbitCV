@@ -120,15 +120,13 @@ disable404 = true
         icon = "fa-user"
         title = "Career Profile"
         summary = """<font size="+1">**Mature new graduate with work
-        experience** </font>.<br><br> 
+        experience**</font>.<br><br> 
         <ul>
-        <li>**Laboratory and field work experience** working with a variety of instruments for
-        collection,extraction and analysis of organic and inorganic contaminants in water, sediment
-        and biota.</li>
-        <li>**Solid computer skills** such as programming and 
-        markup languages **Python, R, HTML and Markdown** (this page was created using 
-        most of these languages). </li>
-        <li>**Customer service** experience in several countries</li>
+        <li>**Machine learning**</li>
+        <li>**Scientific research**</li>
+        <li>**Client relations**</li>
+        <li>**Events management**</li>
+        <li>**Training**</li>
         </ul>
         <br><font size="+1">**According to previous employers:**</font><br><br>
         <center><q><i>She works efficiently, systematically and independently and is not afraid of
@@ -143,8 +141,9 @@ disable404 = true
         related part of the work. Viviane demonstrated a structured approach.</q></i>
         <br><a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0" style="color: #0000EE">Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)<center/></a>
       
+    
         """
-              
+    # Experiences section          
       [params.education]
         enable = true
         icon = "fa-university"
@@ -173,7 +172,16 @@ disable404 = true
         position = "Research Assistant"
         dates = "2019 - Present"
         company = "Norwegian Institute for Water Research (NIVA)"
-        details = "Elaboration of scientific article (in progress), laboratory work."
+        details = "<ul><li>Elaboration of scientific article (in progress), laboratory work.</li></ul>"
+
+        [[params.jobs.list]]
+        position = "Teaching assistant"
+        dates = "2019 - Present"
+        company = "Carpentry@UiO"
+        details = """<ul><li>Teaching assistant in 
+        a variety of worshops in R and Git. Carpentry@UiO offers foundational coding and data 
+        science skills workshops to PhD students, researchers and others 
+        at UiO.</ul>"""
 
         [[params.jobs.list]]
         position = "Summer intern"
@@ -183,24 +191,57 @@ disable404 = true
         <li>Field work - sampling of water, sediment and biota.</li> 
         <li>Elaboration of a report on the effects of suspended particles in
         aquatic systems.</li>
-        <li>summary for the report “Sustainable Design and Maintenance of Stormwater Treatment Facilities”.</li>
+        <li>Summary for the report “Sustainable Design and Maintenance of Stormwater Treatment Facilities”.</li>
         <li>Diverse literature research.</li></ul>"""
 
         [[params.jobs.list]]
         position = "Research Assistant"
         dates = "January 2016 - August 2016"
         company = "Norwegian Institute for Water Research (NIVA)"
-        details = "Laboratory work: Extraction methods for chemical analysis of organic and inorganic compounds in fish, phytoplankton and sediment and quantification using HPLC."
+        details = "<ul><li>Laboratory work: Extraction methods for chemical analysis of organic and inorganic compounds in fish, phytoplankton and sediment and quantification using HPLC.</li></ul>"
 
         [[params.jobs.list]]
         position = "Administrative Officer (Temporary contract)"
         dates = "June 2014 - January 2015"
         company = "Brazilian – Norwegian Chamber of Commerce"
-        details = "Administrative support. <br> Organization, management and representation of BNCC on monthly events. <br> Re-designed and re-structured BNCC’s website entirely."
+        details = """<ul><li>Administrative support.
+        <li> Organization, management and representation of BNCC on monthly seminars and
+        network events.
+        <li> Redesign and restructure of BNCC’s website.
+        <li> Organization of meetings and travel.
+        <li> Member enquiries.
+        </ul></li>"""
         
-
-
-    # Projects section
+        [[params.jobs.list]]
+        position = "English/Portuguese translator and teacher"
+        dates = "August 2008 - January 2014"
+        company = "Self-employed"
+        details = """<ul>
+        <li> Technical translation of documents and resumes for the oil and gas industry.
+        <li> Portuguese and English teacher.
+        </ul></li>""" 
+        
+        [[params.jobs.list]]
+        position = "Head Cashier / Section Manager"
+        dates = "March 2010 - December 2012"
+        company = "INDITEX Group"
+        details = """<ul>
+        <li> Responsible for recruiting, training, and leading employees.
+        <li> Sales.
+        <li> Technical support.
+        </ul></li>"""
+        
+        [[params.jobs.list]]
+        position = "Retail/Operational Manager (started as sales assistant)"
+        dates = "July 2008 - February 2010"
+        company = "Hard Rock Café"
+        details = """<ul>
+        <li> Responsible for recruiting, training, and leading sales assistants.
+        <li> Management of all departments as manager in duty.
+        <li> Customer service.
+        </ul></li>"""
+ 
+      # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
@@ -209,28 +250,8 @@ disable404 = true
 
 
         [[params.projects.list]]
-        position = "**Volunteering work -** Teaching assistant and <br>interim board member"
-        dates = "January 2019 - Present"
-        company = "Carpentry@UiO"
-        details = """Carpentry@UiO offers foundational coding and data 
-        science skills workshops to PhD students, researchers and others 
-        at UiO"""
-        
-        [[params.projects.list]]
-        position = "**Volunteering work -** Board member"
-        dates = "2017 - Present"
-        company = "Sameiet Kirkeveien 129b"
-        details = "The Board members are responsible for making decisions regarding the maintenance of building, and set and enforce the house rules.**Volunteering work**"
-  
-        [[params.projects.list]]
-        position = "**Experience -**Swimming instructor"
-        dates = "May 2018 - Present"
-        company = "Norges Livredningsselskap"
-        details = "Swimming courses for children between 4 and 12 years-old."
-
-        [[params.projects.list]]
-        position = """<a href ="https://arbeidsvarsling.smartlearn.no/course-category/course-1" style="color:#0000EE" >
-        **Course -**</a>Norges Kurs i arbeidsvarsling i henhold til <br> Statens vegvesen Håndbok N301."""
+        position = """**Course -**<a href ="https://arbeidsvarsling.smartlearn.no/course-category/course-1" style="color:#0000EE" >
+        Norges Kurs i arbeidsvarsling i henhold til <br> Statens vegvesen Håndbok N301.</a>"""
         dates = "1-day course , 2018"
         company = "Statens vegvesen"
         details = """Course aimed on safery during roadwork. 
@@ -242,17 +263,30 @@ disable404 = true
         #url = "https://arbeidsvarsling.smartlearn.no/course-category/course-1"
        
         [[params.projects.list]]
-        position = "**Course -**International General Certification <br> in Occupational Health and Safety"
+        position = """**Course -** <a href ="https://www.nebosh.org.uk/qualifications/international-general-certificate/" 
+        style="color:#0000EE" >International General Certification <br> in Occupational Health and Safety</a>"""
         dates = "Approx. 135h , 2012"
         company = "National Examination Board in Occupational HSE (NEBOSH)"
         details = "The course incudes the practical assessment of a workplace. **Passed with distinction**."
 
         [[params.projects.list]]
-        position = "**Course -**Experimental animal studies"
+        position = """**Course -** <a href = "https://www.uio.no/studier/emner/matnat/ibv/MBV4330/index-eng.html/" 
+        style="color:#0000EE">Experimental animal studies</a>"""
         dates = "April 2018"
         company = "University of Oslo"
         details = "The course incudes 25 hours of practical work at an animal facility."
 
+       [[params.projects.list]]
+        position = "**Other** - Swimming instructor"
+        dates = "May 2018 - Present"
+        company = "Norges Livredningsselskap"
+        details = "Swimming courses for children between 4 and 12 years-old."
+      
+        [[params.projects.list]]
+        position = "**Other** - Board member"
+        dates = ""
+        company = "Carpentry@UiO, Sameiet Kirkeveien 129b"
+        details = ""
 
     # Skills section
     [params.skills]
@@ -261,8 +295,12 @@ disable404 = true
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "**R** - advanced <br> **Python** - basic <br> **HTML** - basic <br> **CSS** - basic <br> **GitHub** - intermediate <br> **Photoshop** - intermediate <br> **Excel** - intermediate"
+        skill = """R - advanced <br> <br> **Python** - basic <br><br> **HTML** - 
+        basic <br><br> **CSS** - basic <br><br> **GitHub** - intermediate <br><br> 
+        **Photoshop** - intermediate <br><br> **Excel** - intermediate """
+
         
+
 
     # Footer section
 
