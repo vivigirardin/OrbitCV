@@ -60,7 +60,7 @@ disable404 = true
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/viviane-girardin"
+        url = "//www.linkedin.com/in/viviane-girardin-4a252119/"
         title = "linkedin.com/in/viviane-girardin"
 
         [[params.contact.list]]
