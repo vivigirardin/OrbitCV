@@ -177,7 +177,7 @@ disable404 = true
         <li>Adaption and implementation of the LIMS in relation to new data sources (instrumentation).</li>
         <li>Development and implementation of web-solutions for work-processes in the laboratory.</li>
         <li>Contribution to additional development projects together with IT and data science & informatics.</li>
-Data management, data governance and quality.</li></ul>"""
+        <li>Data management, data governance and quality.</li></ul>"""
 
 
         [[params.jobs.list]]
