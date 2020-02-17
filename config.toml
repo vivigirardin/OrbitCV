@@ -169,8 +169,15 @@ disable404 = true
         title = "Work Experience"
 
         [[params.jobs.list]]
-        position = "Research Assistant, Laboratory Engineer, Systems Engineer"
-        dates = "January 2019 - May 2019 , May 2019 - August 2019 , August 2019 - Present"
+        position = "Systems Engineer"
+        dates = "August 2019 - Present"
+        company = "Norwegian Institute for Water Research (NIVA)"
+        details = "<ul><li>Elaboration of scientific article (in progress), laboratory work.</li></ul>"
+
+
+        [[params.jobs.list]]
+        position = "Research Assistant, Laboratory Engineer"
+        dates = "January 2019 - August 2019"
         company = "Norwegian Institute for Water Research (NIVA)"
         details = "<ul><li>Elaboration of scientific article (in progress), laboratory work.</li></ul>"
 
@@ -296,7 +303,7 @@ disable404 = true
 
         [[params.skills.list]]
         skill = """ LIMS LabWare - advanced<br><br> R - advanced <br> <br> **Python** - basic <br><br> **HTML** - 
-        basic <br><br> **CSS** - basic <br><br> **Crystal Reports** - intermediate <br><br> 
+        basic <br><br> **CSS** - basic <br><br> **Crystal Reports** - intermediate<br><br> 
         **Photoshop** - intermediate <br><br> **Excel** - intermediate """
 
         
