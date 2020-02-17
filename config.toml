@@ -172,7 +172,12 @@ disable404 = true
         position = "Systems Engineer"
         dates = "August 2019 - Present"
         company = "Norwegian Institute for Water Research (NIVA)"
-        details = "<ul><li>Elaboration of scientific article (in progress), laboratory work.</li></ul>"
+        details = """<ul>
+        <li>Management of the laboratory information management system (LIMS).</li>
+        <li>Adaption and implementation of the LIMS in relation to new data sources (instrumentation).</li>
+        <li>Development and implementation of web-solutions for work-processes in the laboratory.</li>
+        <li>Contribution to additional development projects together with IT and data science & informatics.</li>
+Data management, data governance and quality.</li></ul>"""
 
 
         [[params.jobs.list]]
