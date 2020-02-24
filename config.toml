@@ -130,7 +130,7 @@ disable404 = true
         #</ul>
            
     
-        """
+   
     # Experiences section          
       [params.education]
         enable = true
@@ -310,7 +310,7 @@ disable404 = true
         <i><q>Viviane...showed initiative and 
         made new suggestions for improvement, both in the administrative and data 
         related part of the work. Viviane demonstrated a structured approach.</q></i>
-        <br><a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0" style="color: #0000EE">Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)<center/></a>      
+        <br><a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0" style="color: #0000EE">Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)<center/></a> """
 
 
     # Footer section
