@@ -115,32 +115,20 @@ disable404 = true
     # Summary section
     #use """ text """ instead of "text" to avoid having a long string of text
 
-    [params.summary]
-        enable = true
-        icon = "fa-user"
-        title = "Career Profile"
-        summary = """<font size="+1">**Mature new graduate with work
-        experience**</font>.<br><br> 
-        <ul>
-        <li>**Data science**</li>
-        <li>**Scientific research**</li>
-        <li>**Client relations**</li>
-        <li>**Event management**</li>
-        <li>**Training**</li>
-        </ul>
-        <br><font size="+1">**According to previous employers:**</font><br><br>
-        <center><q><i>She works efficiently, systematically and independently and is not afraid of
-        challenges.</q></i> <br>
-        <a href= "https://www.dropbox.com/s/cz2ohpempp7gblr/2018.09.21_Statens_vegvesen_Sluttattest_for_sommerjobb_2018.pdf?dl=0" 
-        style="color: #0000EE">Kjersti Wike Kronvall (Statens vegvesen)</a><br><br>
-        <i><q>...Viviane proved she was reliable, responsive, 
-        responsible, and used her initiative.</q></i><br>
-        <a href = "https://www.dropbox.com/s/ceognfnmt15uo0t/Aker_Sol_Ref.pdf?dl=0"style="color: #0000EE">Timothy Canty (Aker Solutions)</a><br><br>
-        <i><q>Viviane...showed initiative and 
-        made new suggestions for improvement, both in the administrative and data 
-        related part of the work. Viviane demonstrated a structured approach.</q></i>
-        <br><a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0" style="color: #0000EE">Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)<center/></a>
-      
+   # [params.summary]
+    #    enable = true
+     #   icon = "fa-user"
+      #  title = "Career Profile"
+       # summary = """<font size="+1">**Mature new graduate with work
+        #experience**</font>.<br><br> 
+        #<ul>
+        #<li>**Data science**</li>
+        #<li>**Scientific research**</li>
+        #<li>**Client relations**</li>
+        #<li>**Event management**</li>
+        #<li>**Training**</li>
+        #</ul>
+           
     
         """
     # Experiences section          
@@ -311,7 +299,18 @@ disable404 = true
         basic <br><br> **CSS** - basic <br><br> **Crystal Reports** - intermediate<br><br> 
         **Photoshop** - intermediate <br><br> **Excel** - intermediate """
 
-        
+  <br><font size="+1">**According to previous employers:**</font><br><br>
+        <center><q><i>She works efficiently, systematically and independently and is not afraid of
+        challenges.</q></i> <br>
+        <a href= "https://www.dropbox.com/s/cz2ohpempp7gblr/2018.09.21_Statens_vegvesen_Sluttattest_for_sommerjobb_2018.pdf?dl=0" 
+        style="color: #0000EE">Kjersti Wike Kronvall (Statens vegvesen)</a><br><br>
+        <i><q>...Viviane proved she was reliable, responsive, 
+        responsible, and used her initiative.</q></i><br>
+        <a href = "https://www.dropbox.com/s/ceognfnmt15uo0t/Aker_Sol_Ref.pdf?dl=0"style="color: #0000EE">Timothy Canty (Aker Solutions)</a><br><br>
+        <i><q>Viviane...showed initiative and 
+        made new suggestions for improvement, both in the administrative and data 
+        related part of the work. Viviane demonstrated a structured approach.</q></i>
+        <br><a href= "https://www.dropbox.com/s/tmlnhnt3hrgycl8/BNCC_Ref.pdf?dl=0" style="color: #0000EE">Harald Martinsen (Brazilian-Norwegian Chamber of Commerce)<center/></a>      
 
 
     # Footer section
